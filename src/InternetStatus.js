@@ -18,7 +18,7 @@ const InternetStatus = ({ message, background, textColor, width, height }) => {
       className='nav'
       data-testid='nav'
       style={{
-        display: `${isOnline ? 'none' : 'block'}`,
+        display: `${isOnline ? 'none' : 'flex'}`,
         textAlign: 'center',
         position: 'fixed',
         justifyContent: 'center',
